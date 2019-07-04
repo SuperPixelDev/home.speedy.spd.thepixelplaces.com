@@ -11,6 +11,8 @@
 	<meta property="og:url" content="https://home.speedy.spd.thepixelplaces.com/" />
 	<meta property="og:description" content="Project SPEEDY is the web application platform that provides various web-powered services. With its structure based on the web, Project SPEEDY is light yet fast and simple, and no installation process is required to use it." />
 
+<link rel="manifest" href="/manifest.json"> <meta name="msapplication-TileColor" content="#009688"> <meta name="msapplication-TileImage" content="https://speedy.spd.thepixelplaces.com/icon/res/mipmap-xxhdpi/SPEEDY.png">
+
 	<meta name="google-site-verification" content="X5BBfwQWl7WZXg5yZnJG8Ac3nCIj-dhsO4YnCjWt2LY" />
 
 	<link rel="shortcut icon" href="https://speedy.spd.thepixelplaces.com/icon/res/mipmap-xhdpi/SPEEDY.png" type="image/x-icon">
@@ -99,5 +101,7 @@
 		</div>
 	</main>
 	
+<script type="text/javascript"> if ('serviceWorker' in navigator) { console.log("Will the service worker register?"); navigator.serviceWorker.register('service-worker.js') .then(function(reg){ console.log("Yes, it did."); }).catch(function(err) { console.log("No it didn't. This happened:", err) }); } </script>
+
 </body>
 </html>
